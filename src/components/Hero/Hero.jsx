@@ -54,14 +54,6 @@ export const Hero = () => {
             <motion.button variants={textVariant}>{`Contact Me`.toUpperCase()}</motion.button>
           </motion.div>
         </motion.div>
-        <motion.div
-          variants={sliderVariant}
-          className="slidingText"
-          initial="initial"
-          animate="animate"
-        >
-          {`i love programming`.toUpperCase()}
-        </motion.div>
       </div>
     </div>
   );

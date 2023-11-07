@@ -4,7 +4,7 @@ import "./index.scss";
 const App = () => {
   return (
     <div>
-      <section id="Home">
+      <section id="Homepage">
         <Navbar />
         <Hero />
       </section>

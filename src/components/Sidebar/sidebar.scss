@@ -1,19 +1,25 @@
+@import "../index.scss";
+
 .sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
-    color: #333;
+    background-color: white;
+    color: black;
 
     .bg {
+        z-index: 999;
         position: fixed;
         top: 0;
         left: 0;
         bottom: 0;
-        // controlar el tamano del sidebar
         width: 400px;
-        background: #fff;
+        background: white;
+
+        @include mobile {
+            width: 200px;
+        }
 
         .links {
             position: absolute;
@@ -27,11 +33,17 @@
 
             a {
                 font-size: 40px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
             }
         }
     }
 
     button {
+        z-index: 999;
+        position: fixed;
         width: 50px;
         height: 50px;
         border-radius: 50%;

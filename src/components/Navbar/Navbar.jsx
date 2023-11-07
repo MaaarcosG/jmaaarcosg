@@ -14,7 +14,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          MARCOS DEV
+          Marcos Dev
         </motion.span>
         <div className="social">
           <a href="https://github.com/Maaarcosg">
